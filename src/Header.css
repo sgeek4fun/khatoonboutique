@@ -1,0 +1,85 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 12px;
+    
+  }
+  .header {
+    background-image: url('/public/khatoonboutique.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+  .Name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e3e3e3;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    text-shadow: 2px 2px black; 
+
+  }
+
+  .header__searchInput {
+    height: 12px;
+    padding: 10px;
+    width: 40%;
+  }
+  
+  .header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #ffffff;
+  }
+  
+  .header__optionLineOne {
+    font-size: 10px;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+  }
