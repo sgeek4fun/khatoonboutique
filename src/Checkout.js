@@ -15,11 +15,13 @@ function Checkout() {
           src="khatoonboutique.png"
           alt=""
         />
-
-        <div>
+      <div className="aft_ad">
           <h3>Hello, {user?.email}</h3>
-          <h2 className="checkout__title">Your shopping Basket</h2>
-
+          <h2 className="checkout__title">Your Shopping Basket</h2>
+          <div className="checkout__right">
+            <Subtotal />
+          </div>
+          <div className="Products">
           {basket.map(item => (
             <CheckoutProduct
               id={item.id}
@@ -29,12 +31,8 @@ function Checkout() {
               rating={item.rating}
             />
           ))}
-
+          </div>
         </div>
-      </div>
-
-      <div className="checkout__right">
-        <Subtotal />
       </div>
     </div>
   );

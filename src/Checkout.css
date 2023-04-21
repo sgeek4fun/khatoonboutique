@@ -3,15 +3,28 @@
     padding: 20px;
     background-color: white;
     height: max-content;
+    margin-top: 50px;
   }
   
   .checkout__ad {
     width: 100%;
     margin-bottom: 10px;
+    flex:1;
   }
-  
   .checkout__title {
     margin-right: 10px;
     padding: 10px;
     border-bottom: 1px solid lightgray;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+  }
+  .checkout__right{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .aft_ad{
+    padding: 40px;
   }

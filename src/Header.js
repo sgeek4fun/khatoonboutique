@@ -39,7 +39,9 @@ function Header() {
   
   return (
     <div className="header">
-      <div className="Name">Khatoon: The Heritage Designer Boutique</div>
+      <Link to="/">
+        <div className="Name"><p>Khatoon</p><p className="lo">The Heritage Designer Boutique</p></div>
+      </Link>
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
@@ -52,12 +54,12 @@ function Header() {
             <span className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
           </div>
         </Link>
-        
+        <Link to="/checkout">
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>
           </div>
-        
+          </Link>
           <Link to="/checkout">
           <div className="header__optionBasket">
             <ShoppingBasketIcon />

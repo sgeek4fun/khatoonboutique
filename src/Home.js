@@ -7,54 +7,93 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <div className="home__row">
+          <div className="ind_home_pro">
           <Product
             id="12321341"
-            title=""
-            price={11.96}
+            title="If you want to make a statement, wear purple."
+            price={1100.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="Dresses/Dress6.png"
           />
+          </div>
+          <div className="ind_home_pro">
           <Product
             id="49538094"
-            title=""
-            price={239.0}
+            title="The White Pheran"
+            price={2390.0}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="Dresses/Dress2.jpg"
           />
+          </div>
+          <div className="ind_home_pro">
+          <Product
+            id="49552052"
+            title=""
+            price={2390.0}
+            rating={4}
+            image="Dresses/Dress7.jpg"
+          />
+          </div>
         </div>
 
         <div className="home__row">
+        <div className="ind_home_pro">
           <Product
             id="4903850"
             title=""
-            price={199.99}
+            price={1990.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="Dresses/Dress3.jpg"
           />
+        </div>
+        <div className="ind_home_pro">
           <Product
             id="23445930"
             title=""
-            price={98.99}
+            price={980.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="Dresses/Dress4.jpg"
           />
+        </div>
+        <div className="ind_home_pro">
           <Product
             id="3254354345"
             title=""
             price={598.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="Dresses/Dress5.jpg"
           />
+          </div>
         </div>
 
         <div className="home__row">
+        <div className="ind_home_pro2">
           <Product
             id="90829332"
             title=""
             price={1094.98}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="Dresses/Dress1.jpg"
           />
+          </div>
+          <div className="ind_home_pro2">
+          <Product
+            id="90829332"
+            title=""
+            price={1094.98}
+            rating={4}
+            image="Dresses/Dress8.jpg"
+          />
+          </div>
+          <div className="ind_home_pro2">
+          <Product
+            id="90829332"
+            title=""
+            price={1094.98}
+            rating={4}
+            image="Dresses/Dress9.jpg"
+          />
+          </div>
         </div>
       </div>
     </div>
